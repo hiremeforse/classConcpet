@@ -256,3 +256,17 @@ class Myclass():
 t = Myclass()
 t.m1(10,20)
 t.m2()
+
+Advantages of yeild keyword:
+1. Using yield keyword is highly memory efficient, since the execution happens only when the caller iterates over the object.
+
+
+
+def punittest():
+    yeild "this is my point"
+    yeild "this is your point"
+
+
+a = punittest
+print(next(obj))
+print(next(obj))
